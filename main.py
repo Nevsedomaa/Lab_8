@@ -34,7 +34,7 @@ def d3():
     text = f"{name}, поздравляю!"
 
     font_size = 60
-    font_type = "arial.ttf"
+    font_type = "arial_bold.ttf"
     font = ImageFont.truetype(font_type, font_size,)
     draw.text((125, 10), text, font=font, fill=(255, 0, 0))
     image.show()
